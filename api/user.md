@@ -94,12 +94,12 @@
 
 ##### 响应
 
-| 参数 | 类型|描述 |
-| --- | --- | --- |
-| lists |array | 用户组列表数据 |
+| 参数 | 类型    | 描述       |
+| --- |-------|----------|
+| lists | array | 用户组列表数据  |
 | lists.auth | array | 用户组已关联权限 |
-| lists.user | array | 用户组已关联用户 |
-| total | int | 列表总数 |
+| lists.user | int   | 关联用户数量   |
+| total | int   | 列表总数     |
 
 ```json
 {

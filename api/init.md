@@ -77,9 +77,10 @@
         {
             "id": 1,
             "parent_id": 0,
-            "name": "系统设置",
+            "title": "系统设置",
+            "name": "",
             "url": "",
-            "icon": "md-settings",
+            "url_template": "",
             "description": "",
             "sort": 1,
             "create_time": "2019-09-20 16:26:13",
@@ -107,14 +108,14 @@
         }
     ],
     "userGroup": [
-         {
-             "id": 1,
-             "create_time": "2019-09-20 16:26:13",
-             "update_time": "2019-09-20 17:42:41",
-             "name": "超级管理员",
-             "description": "123123123143423"
-         }
-     ]
+        {
+            "id": 1,
+            "create_time": "2019-09-20 16:26:13",
+            "update_time": "2019-09-20 17:42:41",
+            "name": "超级管理员",
+            "description": "123123123143423"
+        }
+    ]
 }
 ```
 
@@ -122,7 +123,7 @@
 
 | action | 请求方式 |
 | --- | --- |
-| /current/user/setting | POST |
+| /setting/user/current | POST |
 
 > 该接口服务端只需要验证登录即可,无需校验其他权限
 
